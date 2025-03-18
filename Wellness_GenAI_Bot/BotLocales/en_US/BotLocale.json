@@ -1,0 +1,26 @@
+{
+  "name": "English (US)",
+  "identifier": "en_US",
+  "version": null,
+  "description": null,
+  "voiceSettings": {
+    "engine": "neural",
+    "voiceId": "Danielle"
+  },
+  "nluConfidenceThreshold": 0.4,
+  "generativeAISettings": {
+    "buildtimeSettings": {
+      "descriptiveBotBuilderSpecification": {
+        "enabled": true,
+        "bedrockModelSpecification": {
+          "modelArn": "${BEDROCK_MODEL_ARN}"
+        },
+        "customPrompt": null,
+        "bedrockGuardrailConfiguration": null,
+        "bedrockTraceStatus": null
+      }
+    },
+    "sampleUtteranceGenerationSpecification": null
+  },
+  "runtimeSettings": null
+}

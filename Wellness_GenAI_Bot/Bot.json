@@ -1,0 +1,11 @@
+{
+  "name": "Wellness_GenAI_Bot",
+  "version": "DRAFT",
+  "description": "LLM Based on Wellness Bot",
+  "identifier": "TJ4NGI9EQM",
+  "errorLogSettings": null,
+  "dataPrivacy": {
+    "childDirected": false
+  },
+  "idleSessionTTLInSeconds": 300
+}
